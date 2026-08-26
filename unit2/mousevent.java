@@ -27,6 +27,11 @@ public class mousevent extends Frame implements MouseListener {
     t1.setText("Mouse Clicked");
   }
 
+  // @Override
+  // public void mouseDoubleClicked(MouseEvent e) {
+  //   t1.setText("Mouse Double Clicked");
+  // } 
+
   @Override
   public void mousePressed(MouseEvent e) {
     t1.setText("Mouse Pressed");
