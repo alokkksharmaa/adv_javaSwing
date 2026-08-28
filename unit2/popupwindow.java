@@ -20,10 +20,20 @@ public class popupwindow extends JFrame implements ActionListener {
   // }
   // showMessageDialog
 
+  // public void actionPerformed(ActionEvent e){
+  //   JOptionPane.showConfirmDialog(null, "Popup window was successful");
+  // }
+  // INFORMATION_MESSAGE --- default
+  // QUESTION_MESSAGE
+  // WARNING_MESSAGE
+  // ERROR_MESSAGE
+  // PLAIN_MESSAGE
+
+  // show confirm dialog
   public void actionPerformed(ActionEvent e){
-    JOptionPane.showConfirmDialog(null, "Popup window was successful");
+    JOptionPane.showConfirmDialog(null, "Are you sure you want to exit?", "Confirmation", JOptionPane.YES_NO_OPTION);
   }
-  
+
   public static void main(String[] args) {
     new popupwindow();
   }
