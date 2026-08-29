@@ -5,7 +5,7 @@ import java.awt.event.*;
 public class jcombobox extends JFrame implements ItemListener {
 
   // JComboBox<String> c1 = new JComboBox<>();  
-  JComboBox c1 = new JComboBox();
+  JComboBox<String> c1 = new JComboBox<>();
   JLabel l1 = new JLabel("Selected Item is: ");
 
   jcombobox(){

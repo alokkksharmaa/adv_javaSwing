@@ -35,6 +35,7 @@ public class checkbox  extends JFrame implements ItemListener{
     add(jc);
     add(jc1);
     add(jc2);
+    add(l1);
     jc.addItemListener(this);
     jc1.addItemListener(this);
     jc2.addItemListener(this);
@@ -45,14 +46,9 @@ public class checkbox  extends JFrame implements ItemListener{
     if(b1.isSelected()){
       l1.setText("Gender : Male");
     }else if(b2.isSelected()){
-      
+      l1.setText("Gender : Female");
     }
-  }
 
-
-
-  @Override
-  public void itemStateChanged(ItemEvent e){
     String str= "Selected: ";
     if(jc.isSelected()){
       str = str + "Java";

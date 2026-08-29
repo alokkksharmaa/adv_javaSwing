@@ -42,7 +42,7 @@ class niofile {
     // System.out.println(Files.isDirectory(f)); 
     
     // wap to create a directory in current pwd
-    Path p2 = Paths.get("MynewFolder");
+    Paths.get("MynewFolder");
     // Files.createDirectories(p2);
 
     // create multiple directories
