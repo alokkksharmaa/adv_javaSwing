@@ -20,11 +20,10 @@ public class mouselistener extends JFrame implements MouseMotionListener{
     int x = e.getX();
     int y = e.getY();
     jl.setText("mouse Position"  +  "X=" + x + "Y= " +  y);
-
   }
 
   public void mouseDragged(MouseEvent e){
-  int x = e.getX();
+    int x = e.getX();
     int y = e.getY();
     jl.setText("mouse Dragged"  +  "X=" + x + "Y= " +  y); 
   }

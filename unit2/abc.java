@@ -19,8 +19,8 @@
 	   {
 		   setSize(500,400);
 		   setVisible(true);
-		 //  setLayout(new FlowLayout());
-		 setLayout(new GridLayout(4,2));
+		  setLayout(new FlowLayout());
+		 	setLayout(new GridLayout(4,2));
 		   add(l1);add(tf1);
 		   add(l2);add(tf2);
 		   add(b1);add(b2);
