@@ -36,6 +36,12 @@ class niofile {
     p1 = p1.toAbsolutePath();
     // System.out.println(p1);
 
+    // System.out.println(p1.getFileName());
+
+    // System.out.println(p1.getParent());
+
+    // System.out.println(p1.getRoot());
+    
     // wap to check wether it's a file or a directory
     // 2 methods (i)Files.isregularFile (ii)  Files.isDirectory
     // System.out.println(Files.isRegularFile(folder));
@@ -55,6 +61,16 @@ class niofile {
     // wap to delete a file if exists
     Files.deleteIfExists(p3);
 
+
+    // WAP to copy one fiel to another
+    Path source = Paths.get("C:\\Users\\aloks\\Java Practicals\\unit3\\lpunew.txt");
+    Path dest = Paths.get("lpunew.txt");
+    Files.copy(source, dest);
+
+
+
+  // if lpunew.txt already exist then what to do?
+  Files.copy(source, dest);
   } 
 }
 
@@ -62,4 +78,3 @@ class niofile {
 // types of file
 // (i)abs == pwd  ex :- "C:\\Users\\aloks\\Java\\Unit3\\tests"
 // (ii)relative   ex :- paths.get("lpu.txt"); or paths.get("fs", lpu.txt);
-// 

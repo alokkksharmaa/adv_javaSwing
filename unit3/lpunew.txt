@@ -1,0 +1,6 @@
+welcome to lpu
+Rahul likes java programming 
+Alex is from Lpu and codes in java
+Alice likes C++ programming
+Bob likes Web Development
+java is my platform
