@@ -48,4 +48,3 @@ import javax.swing.*;
 	 }
 }
 
-//  wap to accept the date from the user in dd-mm-yyyy format and print it in dd-mm-yyyy format
