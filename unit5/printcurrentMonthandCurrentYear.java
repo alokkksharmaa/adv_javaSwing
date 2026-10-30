@@ -9,6 +9,5 @@ public class printcurrentMonthandCurrentYear {
    System.out.println(d.getDayOfMonth());
    System.out.println(d.getDayOfYear());
    System.out.println(d.getYear());
-    
   }
 }
